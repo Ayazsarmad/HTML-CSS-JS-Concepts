@@ -12,11 +12,21 @@
         <input type="text" placeholder="Enter city name" spellcheck="false" />
         <button><img src="./images/search.png" alt="" /></button>
       </div>
+      <div>
+        <p class="error">invalid city, please check the spell</p>
+      </div>
       <div class="area">
         <div class="weather">
-          <div class="img">
-            <img src="./images/drizzle.png" alt="" />
+          <div class="mid">
+            <div class="img">
+              <img id="weatherImg" src="./images/drizzle.png" alt="" />
+            </div>
+            <div class="weatherNow">
+              <label for="">Weather now:</label>
+              <p id="weatherNow">cloudy</p>
+            </div>
           </div>
+
           <div class="cont">
             <div class="part1">
               <div class="label">
