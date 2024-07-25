@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #4b0082, #87ceeb);
+}
+
+.mainContainer {
+  margin: 20px auto;
+  border: 5px dotted rgb(5, 0, 75);
+  width: 100%;
+  max-width: 400px;
+  min-width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 400px;
+  position: relative;
+  /* border-radius: 50%; */
+}
+
+.mainStar {
+  color: blue;
+  font-size: 90px;
+}
+
+.mainStar:hover {
+  color: rgb(25, 25, 209);
+  font-size: 100px;
+  filter: drop-shadow(5px 05px 2px rgb(2, 0, 109));
+}
+
+.subStarA {
+  color: rgb(21, 252, 0);
+  font-size: 50px;
+  position: absolute;
+  top: 0%;
+  filter: drop-shadow(5px 05px 2px rgb(0, 109, 0));
+}
+
+.subStarB {
+  color: rgb(252, 235, 0);
+  font-size: 50px;
+  position: absolute;
+  left: 0%;
+  filter: drop-shadow(5px 05px 2px rgb(109, 102, 0));
+}
+
+.subStarC {
+  color: rgb(231, 0, 252);
+  font-size: 50px;
+  position: absolute;
+  right: 0%;
+  filter: drop-shadow(5px 05px 2px rgb(100, 0, 109));
+}
+.subStarD {
+  color: rgb(0, 183, 255);
+  font-size: 50px;
+  position: absolute;
+  bottom: 0%;
+  filter: drop-shadow(5px 05px 2px rgb(0, 93, 109));
+}
+.subStarE {
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  position: absolute;
+  left: 12%;
+  top: 12%;
+  filter: drop-shadow(5px 05px 2px rgb(109, 0, 0));
+}
+.subStarF {
+  color: rgb(118, 0, 252);
+  font-size: 50px;
+  position: absolute;
+  right: 12%;
+  top: 12%;
+  filter: drop-shadow(5px 05px 2px rgb(20, 0, 109));
+}
+.subStarG {
+  color: rgb(252, 92, 0);
+  font-size: 50px;
+  position: absolute;
+  right: 12%;
+  bottom: 12%;
+  filter: drop-shadow(5px 05px 2px rgb(109, 25, 0));
+}
+.subStarH {
+  color: rgb(252, 0, 189);
+  font-size: 50px;
+  position: absolute;
+  left: 12%;
+  bottom: 12%;
+  filter: drop-shadow(5px 05px 2px rgb(109, 0, 109));
+}
+
+.info {
+  width: 600px;
+  max-width: 600px;
+  border: 4px dotted skyblue;
+  top: 3px;
+  order: -1;
+  font-size: x-large;
+  padding: 40px;
+  color: white;
+}
+
+.whole {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px;
+  line-height: 300%;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 03px;
+  color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0%;
+  background: rgb(72, 70, 194);
+  border: 3px dashed blue;
+}
+
+.guide {
+  position: absolute;
+  top: 250px;
+  right: 80px;
+}
+
+.guide h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.notePadFixed {
+  position: fixed;
+  right: 2%;
+  top: 10%;
+}
+
+.notePadFixed > i {
+  font-size: 150px;
+  color: rgb(100, 32, 0);
+  position: relative;
+  filter: drop-shadow(5px 05px 2px rgb(255, 238, 0));
+}
+
+.note {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 15px;
+  line-height: 120%;
+  width: 80px;
+  color: rgb(255, 255, 255);
+  /* border: 2px solid blue; */
+}

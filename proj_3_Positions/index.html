@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .subStarA,
+      .subStarB,
+      .subStarC,
+      .subStarD,
+      .subStarE,
+      .subStarF,
+      .subStarG,
+      .subStarH {
+        display: none;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Learning positions</h1>
+    <div class="whole">
+      <div class="guide">
+        <h2>Click the Star please</h2>
+      </div>
+    <div class="mainContainer">
+
+      <div class="mainStar">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarA">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarB">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarC">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarD">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarE">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarF">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarG">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <div class="subStarH">
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+    </div>
+    <div class="info">
+      <p>
+        <ol>
+          <li>Relative positioning changes an element's position but keeps its original space, so other elements will not occupy that space.</li>
+          <li>Absolute positioning changes an element's position and removes its original space, allowing other elements to occupy that space.</li>
+          <li>Fixed positioning changes an element's position, removes its original space, and attaches it to the viewport. It remains in place when scrolling.</li>
+          <li>Sticky positioning is like fixed positioning but allows the element to occupy space relative to its parent. When the parent scrolls out of view, the sticky element will also leave its place.</li>
+          <li>Absolute positioning requires a parent with a position property set (relative). If no such parent is specified, it defaults to the body and uses the body as its reference. When a parent with `position: relative` is specified, the element is positioned relative to that parent.</li>
+        </ol>
+      </p>
+      <div class="notePadFixed">
+        <i class="fa-regular fa-clipboard"></i>
+        <p class="note">It's fixed property with absolute</p>
+      </div>
+</div>
+</div>
+    <script>
+      document
+        .querySelector(".mainStar")
+        .addEventListener("click", function () {
+          const subStars = document.querySelectorAll(
+            ".subStarA, .subStarB, .subStarC, .subStarD, .subStarE, .subStarF, .subStarG, .subStarH"
+          );
+          subStars.forEach((star) => {
+            star.style.display =
+              star.style.display === "none" ? "block" : "none";
+          });
+        });
+    </script>
+  </body>
+</html>
+<!-- <i class="fa-solid fa-star ab"></i> -->
