@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  width: 200px;
+  margin: 10px auto 20px;
+  text-align: center;
+}
+.road {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  position: relative;
+}
+
+.road img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.plane {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: rotate(13deg);
+  /* animation: movement 5s linear 1; */
+}
+
+.plane img {
+  width: 250px;
+  height: auto;
+}
+
+/* @keyframes movement {
+  0% {
+    left: -25%;
+    top: 50%;
+  }
+
+  50% {
+    left: 30%;
+    top: 50%;
+    transform: rotate(13deg);
+  }
+  75% {
+    left: 60%;
+    top: 30%;
+    transform: rotate(5deg);
+  }
+  100% {
+    left: 100%;
+    top: -32%;
+  }
+} */
+
+.heading2 {
+  width: 300px;
+  margin: 20px auto 10px;
+  text-align: center;
+}
+
+.aniTwo img {
+  width: 100%;
+  height: 500px;
+}
+
+.aniTwo {
+  position: relative;
+}
+
+.ball {
+  font-size: 100px;
+  position: absolute;
+  left: 1000px;
+  /* top: 70%; */
+  filter: drop-shadow(30px 80px 2px rgba(0, 0, 0, 0.5));
+  background: linear-gradient(90deg, #0000ff, #add8e6);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: jumping 5s linear 1;
+}
+
+@keyframes jumping {
+  10% {
+    left: 0px;
+    top: -10%;
+  }
+  20% {
+    left: 150px;
+    top: 10%;
+  }
+  30% {
+    left: 250px;
+    top: 70%;
+  }
+  40% {
+    left: 350px;
+    top: 10%;
+  }
+  50% {
+    left: 450px;
+    top: 70%;
+  }
+  60% {
+    left: 550px;
+    top: 10%;
+  }
+  70% {
+    left: 650px;
+    top: 70%;
+  }
+  80% {
+    left: 750px;
+    top: 10%;
+  }
+  90% {
+    left: 850px;
+    top: 70%;
+  }
+  100% {
+    left: 1000px;
+    top: -10%;
+  }
+}
