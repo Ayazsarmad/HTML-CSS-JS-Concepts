@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #FF8C00, #FF4500); /* Dark Orange Gradient */
+  color: white;
+}
+
+.Title {
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline; /* Underline the heading */
+  margin-bottom: 10px; /* Add margin to the bottom of the heading */
+}
+
+.Title h3{
+  color: #333;
+  margin-top: 20px;
+  
+}
+
+.container1 {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 30px 50px;
+  border: 2px dashed rgb(10, 2, 119); /* Dashed border with white color */
+  background: linear-gradient(to right, #FF8C00, #FF4500); /* Dark Orange Gradient */
+}
+
+.enterName {
+  font-size: 20px;
+  margin-bottom: 10px; /* Add margin to the bottom of the input field */
+}
+
+.Score h4{
+  margin: 30px 20px;
+  font-size: 25px;
+}
+
+.Score h4 input{
+  margin-top: 20px;
+}
+
+.enterName h4{
+  margin: 30px 20px;
+  font-size: 25px;
+}
+
+.enterName h4 input{
+  margin-top: 20px;
+}
+
+input {
+  font-size: 20px;
+  padding: 8px;
+  margin: 5px 10px; /* Add margin to the top and bottom of the input field */
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent; /* Transparent background */
+}
+
+input:hover,
+input:focus {
+  border-color: darkorange; /* Change border color on hover or focus */
+}
+
+.nobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #7d0320; /* Sky Blue button */
+  color: white; /* White text */
+  border: none; /* Remove button border */
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: yellow; /* Yellow on hover */
+  color: rgb(11, 1, 49); /* White text on hover */
+}
+
+.btn:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(circle, rgba(255, 255, 0, 0.4) 0%, transparent 70%);
+  z-index: 1;
+  transition: transform 0.5s ease-out;
+  transform: scale(3); /* Adjust the scale factor for the light spread effect */
+}
+
+.player1 {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline; /* Underline the heading */
+  margin-top: 10px; /* Add margin to the top of the player1 */
+}
+
+.player1 h2 {
+  text-decoration: underline;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #e1e900;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; /* Transparent background */
+}
