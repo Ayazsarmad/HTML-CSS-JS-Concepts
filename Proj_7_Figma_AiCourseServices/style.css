@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100vw;
+  min-width: 1440px;
+  height: auto;
+  position: relative;
+}
+
+.img {
+  width: 1440px;
+  height: 2810px;
+}
+
+.img img {
+  position: absolute;
+  width: 100vw;
+  top: 0%;
+  opacity: 50%;
+}
+
+/*------------------------------ work begin here---------------------------- */
