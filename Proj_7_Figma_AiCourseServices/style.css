@@ -161,10 +161,10 @@
 
 .ourServices {
   width: 100vw;
-  background-color: #0172a3;
+  background-color: #004f72;
   position: absolute;
   top: 24%;
-  border-radius: 30px 30px 0 0;
+  border-radius: 40px 40px 0 0;
 }
 
 .ourServices h3 {
@@ -183,4 +183,147 @@
 
 .content {
   display: flex;
+
+  width: 1018px;
+  height: 422px;
+  position: relative;
+}
+
+.material {
+  margin: 23px 65px;
+  justify-content: center;
+  display: flex;
+  gap: 75px;
+  flex-grow: 1;
+  /* align-items: center; */
+  max-width: 882px;
+}
+
+.contbox {
+  background-color: #0172a3;
+  border-radius: 30px;
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 18px;
+  position: relative;
+}
+
+.contbox p {
+  font-size: 10px;
+  color: white;
+}
+
+.contbox .imgbox {
+  max-width: 200px;
+}
+
+.contbox .imgbox img {
+  max-width: 210px;
+}
+
+.contbox .matter {
+  position: absolute;
+  top: 56%;
+}
+.contbox .matter h6 {
+  font-size: 22px;
+  line-height: 1.2;
+  color: white;
+}
+
+.contboxa {
+  background-color: #0172a3;
+  border-radius: 30px;
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 18px;
+  position: relative;
+}
+
+.contboxa p {
+  font-size: 10px;
+  color: white;
+}
+
+.contboxa .imgbox {
+  max-width: 200px;
+}
+
+.contboxa .imgbox img {
+  max-width: 160px;
+  position: relative;
+  left: 24px;
+}
+
+.contboxa .matter {
+  position: absolute;
+  top: 56%;
+}
+.contboxa .matter h6 {
+  font-size: 22px;
+  line-height: 1.2;
+  color: white;
+}
+
+.contbox .imgboxb img {
+  max-width: 210px;
+  position: relative;
+  left: 20px;
+}
+
+.imgA img {
+  position: absolute;
+  left: 16px;
+  transform: rotate(180deg);
+  width: 5%;
+  color: white;
+  top: 170px;
+}
+
+.imgB img {
+  position: absolute;
+  right: 16px;
+  width: 5%;
+  color: white;
+  top: 170px;
+}
+
+.ourCourses {
+  width: 100vw;
+  background-color: #004f72;
+  position: absolute;
+  top: 44%;
+  border-radius: 40px 40px 0 0;
+}
+
+.ourCourses h3 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  margin-top: 30px;
+}
+
+.ourCourses h5 {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.ourCourses .contbox .imgbox img {
+  max-width: 110px;
+  position: relative;
+  left: 55px;
+}
+
+.ourCourses .contboxa .imgbox img {
+  max-width: 194px;
+  position: relative;
+  left: 24px;
+}
+
+.ourCourses .contbox .imgboxb img {
+  max-width: 210px;
+  position: relative;
+  left: 4px;
 }
