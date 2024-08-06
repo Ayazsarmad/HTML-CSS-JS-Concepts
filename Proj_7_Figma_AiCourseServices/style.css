@@ -327,3 +327,95 @@
   position: relative;
   left: 4px;
 }
+
+.footer {
+  position: absolute;
+  top: 63%;
+  max-width: 1100px;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 0 20px 20px;
+  gap: 20px;
+}
+
+.divA {
+  max-width: 160px;
+  height: auto;
+}
+
+.divA h6 {
+  font-size: 30px;
+}
+
+.divA p {
+  font-size: 15px;
+  line-height: 1.1;
+}
+
+.divB {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.divB h6 {
+  font-size: 30px;
+}
+
+.divB ul {
+  list-style-type: none;
+}
+
+.divC h6 {
+  font-size: 30px;
+}
+
+.divC {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  width: 210px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.circle button {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.divD h6 {
+  font-size: 30px;
+}
+
+.divD {
+  width: 208px;
+  text-align: center;
+}
+
+.divD p {
+  font-size: 15px;
+}
+
+.divE h6 {
+  font-size: 30px;
+}
+
+.divE ul {
+  list-style-type: none;
+}
+
+.divE {
+  text-align: center;
+}
