@@ -16,9 +16,16 @@ body {
   min-height: 100vh;
 }
 
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+
 .card-list .card-item {
   display: flex;
   flex-direction: column;
+  user-select: none;
   color: white;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -27,6 +34,7 @@ body {
   padding: 35px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .card-list .card-item .image {
@@ -61,4 +69,29 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid #fff;
   color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 15px;
+  width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -50px;
+  transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
 }
