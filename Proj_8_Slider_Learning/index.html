@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Slider-1</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container swiper">
       <div class="slider-wrapper">
         <div class="card-list">
-          <div class="card-item">
+          <div class="card-item swiper-slide">
             <img
               src="./images/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg"
               alt=""
@@ -18,10 +22,60 @@
             />
             <h2 class="user-name">Aftab khan</h2>
             <p class="user-profession">Software developer</p>
-            <button class="message button">Message</button>
+            <button class="message-button">Message</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="./images/img-2.jpg" alt="" class="image" />
+            <h2 class="user-name">Seerat kanwal</h2>
+            <p class="user-profession">UX/UI Designer</p>
+            <button class="message-button">Message</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img
+              src="./images/elizeu-dias-2EGNqazbAMk-unsplash.jpg"
+              alt=""
+              class="image"
+            />
+            <h2 class="user-name">Afzal noman</h2>
+            <p class="user-profession">Frontend Developer</p>
+            <button class="message-button">Message</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img
+              src="./images/ben-tofan-5tfHfwnhyyM-unsplash.jpg"
+              alt=""
+              class="image"
+            />
+            <h2 class="user-name">Fareed Ahmad</h2>
+            <p class="user-profession">Backend Developer</p>
+            <button class="message-button">Message</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img
+              src="./images/ana-nichita-BI91NrppE38-unsplash.jpg"
+              alt=""
+              class="image"
+            />
+            <h2 class="user-name">Sameer kasif</h2>
+            <p class="user-profession">DevOps Engineer</p>
+            <button class="message-button">Message</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img
+              src="./images/alex-mccarthy-RGKdWJOUFH0-unsplash.jpg"
+              alt=""
+              class="image"
+            />
+            <h2 class="user-name">Farzana umair</h2>
+            <p class="user-profession">Full Stack Developer</p>
+            <button class="message-button">Message</button>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
